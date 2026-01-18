@@ -1,0 +1,635 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+
+}
+.menu-btn{
+    font-size: 40px;
+    cursor: pointer;
+    background: whitesmoke;
+    width: fit-content;
+    display: block;
+}
+
+header{
+    height: 10vh;
+    width: 10%;
+
+   
+}
+header .navbar{
+    position: absolute;
+    display: flex;
+    margin: 0px;
+    padding: 6px 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(121, 139, 139);
+    border-bottom: 2px solid rgb(204, 17, 79);
+    width: 100%;
+
+  
+}
+header .logo{
+    align-items: center;
+    gap: 20px;
+
+}
+header .logo img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(233, 15, 33, 0.5);
+    margin-top: 4px;
+    padding: 8px 15px;
+}
+header .logo span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    
+}
+.liens{
+    display: none;
+    padding: 15px;
+    background: #000;
+    text-decoration: none;
+}
+.liens a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    background: linear-gradient(50deg,hsl(0, 0%, 3%),white);
+    border-radius: 2px 6px;
+    display: block;
+}
+.liens a:hover{
+    color: rgb(255, 255, 0);
+    text-decoration: underline;
+}
+header .logo span:hover{
+    color: red;
+}
+.welcome h1{
+    display: flex;
+    max-width: 20px;
+    max-height: 5px;
+    color: rgb(248, 11, 11);
+    text-align: center;
+    justify-content: flex-start;
+    padding: 80px;
+    
+}
+.welcome p{
+    display: flex;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: end;
+    padding: 60px;
+    
+    
+    
+
+}
+.welcome{
+    background: url(pexels5.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: scroll;
+    justify-content: center;
+    
+    
+}
+
+.welcome p:hover{
+    color: whitesmoke;
+}
+
+.welcome:hover{
+    width: 100%;
+    overflow-y: auto;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+    height: 450px;
+}
+     /* C'est la partie footer */
+.contenu{
+    flex: 1 0 auto;
+    background-color: rgb(118, 118, 151);
+}
+.footer{
+    display: flex;
+    flex-shrink: 0; 
+    border-top: 1px dashed #000;
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+footer img{
+    height: 20px;
+}
+
+.contenu{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 20px 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.contenu h3{
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.contenu h3:hover{
+    color: rgb(148, 25, 25);
+    text-decoration: underline;
+}
+footer .bloc1 ul{
+    justify-content: center;
+    list-style: none;
+    color: black;
+    align-items: center;
+}
+footer .bloc2 p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    
+    
+}
+footer .bloc3 ul{
+    justify-content: center;
+    list-style: none;
+    color: black;
+    align-items: center;
+}
+footer .bloc4 a{
+    align-items: center;
+    color: black;
+    justify-content: center;
+}
+footer .bloc4 ul{
+    list-style: none;
+}
+footer .block5{
+    text-align: center;
+    color: black;
+}
+
+      /* page menu */
+.menu{
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: underline;
+    flex-wrap: wrap;
+    background-color: rgb(182, 165, 165);
+}
+
+.plats{
+    text-align: center;
+    justify-content: center;
+    padding: 70px 50px;
+    
+}
+.menu-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 50px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: rgb(172, 133, 82);
+}
+.box{
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(233, 15, 33, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+.box img{
+    width: 420px;
+    height: 250px;
+}
+.box img:hover{
+transform: scale(1.1);
+}
+
+.box p{
+    text-align: center;
+    color: brown;
+}
+.box p:hover{
+    color: black;
+    text-decoration: underline;
+}
+.menu:hover{
+color: rgb(185, 57, 57);
+}
+    /* page plat du jour */
+.special{
+    text-align: center;
+    color: black;
+    background-color: #eb5959;
+}
+.tito{
+color: black;
+padding: 50px;
+}
+.tito:hover{
+    color: rgb(131, 40, 40);
+    text-decoration: underline;
+}
+.prix{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding: 40px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.prix:hover{
+    color: rgb(41, 41, 151);
+}
+.prix th{
+    text-align: center;
+    color: rgb(148, 25, 25);
+    background-color: #000000;
+}
+.prix td{
+    text-align: center;
+    background-color: white;
+    gap: 20px;
+    justify-content: center;
+}
+.prix th:hover{
+    color: white;
+    text-decoration: underline;
+}
+table, th, td{
+    border: 1px solid rgb(200, 150, 122);
+    border-collapse: collapse;
+}
+.sector1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(113, 161, 204);
+    
+}
+main .div-sector1{
+    max-width: 400px;
+}
+aside .div-sector2{
+    max-width: 300px;
+}
+.div-sector1{
+    color: rgb(148, 25, 25);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.div-sector2{
+    color: rgb(148, 25, 25);
+    font-size: 20px;
+    font-weight: bold;
+}
+.div-sector2 ul{
+    list-style: none;
+}
+.div-sector1 p:hover{
+    color: #000;
+}
+.div-sector2 ul:hover{
+    color: #000;
+}
+       /* C'est la page reservation */
+.reserve1{
+   text-align: center;
+   color: black;
+   padding: 70px ;
+   background-color: #a16a6a;
+}
+.reserve-list{
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding: 40px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    background-color: rgb(207, 140, 58);
+    
+}
+.reserve-list th{
+    color: red;
+    background-color: goldenrod;
+
+}
+.reserve1:hover{
+    color: rgb(124, 29, 29);
+    text-decoration: underline;
+}
+.reserve-list table td{
+    background-color: rgb(161, 169, 177);
+    border-collapse: collapse;
+    border: 1px solid #e59e9e;
+}
+.reserve-list:hover{
+    color: white;
+}
+.fiche{
+    text-align: center;
+    background-color: rgb(138, 62, 77);
+    color: white;
+}
+.fiche h4:hover{
+color: rgb(44, 5, 5);
+text-decoration: underline;
+}
+select{
+    color: white;
+    background-color: rgb(97, 97, 161);
+}
+
+
+     /* C'est la page contact */
+.div-grand{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px 20px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(138, 168, 138);
+    
+
+    /* flex-wrap: wrap; */
+}
+.div-grand p{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.div-grand p:hover{
+    color: burlywood;
+}
+.tita{
+    text-align: center;
+    color: black;
+    background-color: rgb(190, 190, 76);
+    padding: 70px 12px;
+}
+main{
+    max-width: 100%;
+    
+}
+aside{
+    max-width: 100%;
+    
+}
+.horaire-bloc ul{
+list-style: none;
+color: black;
+justify-content: center;
+}
+.image-bloc img{
+    height: 350px;
+    width: 500px;
+    padding: 20px 20px;
+}
+.image-bloc p{
+    display: flex;
+    text-align: center;
+    color: black;
+}
+.tita:hover{
+color: rgb(119, 16, 16);
+text-decoration: underline;
+}
+.image-bloc img:hover{
+    transform: scale(1.1);
+}
+            /* Ici c'est la partie Responsivité */
+
+
+@media screen and (max-width:768px) {
+    header .navbar ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .welcome{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    footer .contenu{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+      
+@media screen and (max-width:768px) {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu-1{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+            /* Page plat du jour */
+@media screen and (max-width:768px) {
+    .special{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .tito{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .prix{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+    main aside{
+        max-width: 100%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .prix th td{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+              /* Page Reservation */
+@media screen and (max-width:768px) {
+    .reserve{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .reserve1{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .reserve-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .reserve-list th td{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .tita{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+         /* Page Contact */
+@media screen and (max-width:768px) {
+    .div-grand{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 5px;
+        
+    }
+         
+    main aside{
+        max-width: 100vh;
+        font-size: 5px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .block5{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .div-grand img{
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sector1{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 10px;
+    }
+}
+
+
+
+

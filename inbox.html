@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scaleble=no">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="becha.css">
+</head>
+<body>
+    <header>
+                    <!-- voici la partie header -->
+             <div class="navbar">
+                    <div class="logo">
+                       <img src="Resto logo1.jpg" alt="logo de Becha"> 
+                       <span>BECHA RESTAURANT SA</span>
+                   </div>
+                   <div class="menu-btn" id="menubtn">☰</div>
+                  <nav class="liens" id="liens">
+                     <ul>
+                          <li><a href="index.html">Accueil</a></li>
+                          <li><a href="info.html">Menu</a></li>
+                          <li><a href="about.html">Plat du jour</a></li>
+                          <li><a href="inbox.html">Réservation</a></li>
+                          <li><a href="contact.html">Conctact</a></li>
+                     </ul>
+                  </nav>
+             </div>  
+    </header>
+    <hr><br>
+    <hr>
+    <!-- Ici c'est la section de reservation -->
+    <section class="reserve">
+        <div class="reserve1">
+          <h2>Faites une réservation en plaçant vos commandes ici!</h2>
+          <h3>Ici vos plats préférés.</h3>
+        </div>
+     <div class="reserve-list">
+        <table border="1px">
+          <tr>
+            <th>Pour le petit déjeuner</th>
+            <th>Pour le diner</th>
+            <th>Pour le souper</th>
+          </tr>
+          <tr>
+            <td>Sandwitch</td>
+            <td>Riz au poulet</td>
+            <td>Spaghetti aux crevettes</td>
+          </tr>
+          <tr>
+            <td>Maïs-moulu blanc à la sauce hareng</td>
+            <td>Banane à la sauce Cabrit</td>
+            <td>Pizza aux légumes verts</td>
+          </tr>
+          <tr>
+            <td>Paté</td>
+            <td>Riz aux champignons noirs</td>
+            <td>Lasagne aux cougrettes</td>
+          </tr>
+          <tr>
+            <td>Fritures(fritay)</td>
+            <td>Maïs-moulu à la sauce poisson</td>
+            <td>Griot et banane pesé</td>
+          </tr>
+          <tr>
+            <td>Café au lait</td>
+            <td>La soupe au giromon</td>
+            <td>Bouillie de maïs</td>
+          </tr>
+          <tr>
+            <td>Maïs-moulu blanc au hareng</td>
+            <td>Riz blanc,sauce haricots et légumes</td>
+            <td>Bouillie de l'Avoine</td>
+          </tr>
+        </table>
+     </div>
+     <hr>
+                  <!-- Ici c'est la fiche de commande -->
+         <div class="fiche">
+            <h4>Remplir la fiche de commande avant de soumettre votre demande.</h4>
+           <form action="command">
+                   <label for="nom">Nom Complet<span>*</span> :</label>
+                   <input type="text" placeholder="inscrire votre nom complet">
+                   <label for="email">Email<span>*</span> :</label>
+                   <input type="email" placeholder="inscrire votre email ici">
+                   <label for="telephone">Téléphone<span>*</span> :</label>
+                   <input type="number" placeholder="incrire votre téléphone">
+                   
+                   <label for="Numero">Carte de Crédit<span>*</span> :</label>
+                   <input type="number" placeholder="inscrire le numéro de la carte">
+              <select>
+					          <option value="choisir votre plat">Choisir votre plat<span class="star">*</span></option>
+
+						        <option value="Sandwitch">Sandwitch</option>
+						        <option value="Riz au poulet">Riz au poulet</option>
+						        <option value="Spaghetti aux crevettes">Spaghetti aux crevettes</option>
+                    <option value="Maïs-moulu blanc à la sauce hareng">Maïs-moulu blanc à la sauce hareng</option>
+						        <option value="Banane à la sauce Cabrit">Banane à la sauce Cabrit</option>
+						        <option value="Pizza aux légumes verts">Pizza aux légumes verts</option>
+
+                    <option value="Paté">Paté</option>
+						        <option value="Riz aux champignons noirs">Riz aux champignons noirs</option>
+						        <option value="Lasagne aux cougrettes">Lasagne aux cougrettes</option>
+                    <option value="Fritures(fritay)">Fritures(fritay)</option>
+						        <option value="Maïs-moulu à la sauce poisson">Maïs-moulu à la sauce poisson</option>
+						        <option value="Griot et banane pesé">Griot et banane pesé</option>
+
+                    <option value="Café au lait">Café au lait</option>
+						        <option value="La soupe au giromon">La soupe au giromon</option>
+						        <option value="Bouillie de maïs">Bouillie de maïs</option>
+                    <option value="Maïs-moulu blanc aux hareng">Maïs-moulu blanc aux hareng</option>
+						        <option value="Riz blanc,sauce haricots et légumes">Riz blanc,sauce haricots et légumes</option>
+						        <option value="Bouillie de l'Avoine">Bouillie de l'Avoine</option>
+                    
+					    </select>
+                    <button submit="#">Envoyer</button> 
+            </form>
+         </div> 
+  </section>
+  <hr>
+  <script src="script.js"></script>
+</body>
+<footer>
+  <!-- C'est la partie footer -->
+   <div class="contenu">
+        <div class="bloc1">
+         <h3>Nos Services</h3>
+            <ul>
+                <li>Service Traiteur</li>
+                <li>Service de livraison</li>
+            </ul>
+        </div>
+        <div class="bloc2">
+         <h3>Rester en Contact</h3>
+            <p>☎️ 509 41042152</p>
+            <p><a href="#">📧 becasep22@gmail.com</a></p>
+            <p>🏠 57,Rue Lamartine,Christ-roi,P-a-P,Haïti</p>
+        </div>
+         <div class="bloc3">
+         <h3>Les Horaires</h3>
+            <ul>
+                <li>✅Lundi</li>
+                <li>✅Mardi</li>
+                <li>✅Mercredi</li>
+                <li>✅Jeudi</li>
+                <li>✅Vendredi</li>
+                <li>✅Samedi</li>
+                <li>❌Dimanche</li>
+            </ul>
+        </div>
+        <div class="bloc4">
+         <h3>Nos Réseaux</h3>
+            <ul>
+                <li><a href=https://www.facebook.com/profile.php?id=61581559366358""><img src="fb icon.png" alt="icones reseaux sociaux">  Facebook</a></li>
+                <li><a href="#"><img src="instagram icon.jpg" alt="icones reseaux sociaux">  Instagram</a></li>
+                <li><a href="#"><img src="x icon.png" alt="icones reseaux sociaux">  X</a></li>
+                <li><a href="#"><img src="youtube icone.png" alt="icones reseaux sociaux">  Youtube</a></li>
+                <li><a href="#"><img src="whatsapp icone.png" alt="icones reseaux sociaux">  Whatsapp (50941042152)</a></li>
+                <li><a href="#"><img src="tiktok icone.png" alt="icones reseaux sociaux">  Tiktok</a></li>
+                <li><a href="#"><img src="linkedin icone.png" alt="icones reseaux sociaux">  Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+    <di class="block5">
+	       <p>&copy; <span id="2025"></span>2025 Becha Restaurant. Tous droits réservés.</p>
+	  
+	  </di>
+</footer>
+</html>
